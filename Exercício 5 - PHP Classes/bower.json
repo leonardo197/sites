@@ -1,0 +1,12 @@
+{
+    "name": "Exerc_cio_5_-_PHP_Classes",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc", "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}

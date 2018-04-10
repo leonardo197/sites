@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Bootstrap Showcase 4</h1>      
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2>Modal</h2>
+                </div>
+                <div class="col-sm-9">
+                    <div class="well">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Abrir Modal</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog"> 
+                                <!--                        <div class="modal-dialog modal-sm">-->
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Modal Header</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Algum texto em modal.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2>Tooltip</h2>
+                </div>
+                <div class="col-sm-9">
+                    <div class="well">
+                        <a href="#" data-toggle="tooltip" title="Olá!">Faz hover aqui</a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2>Popover</h2>
+                </div>
+                <div class="col-sm-9">
+                    <div class="well">
+                        <a href="#" data-toggle="popover" title="Popover Cabeçalho" data-content="Algum conteudo dentro do popover">Activar popover</a>
+                    </div>
+                </div>
+            </div>    
+        </div>  
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p>© 2018 ESTGP</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+                $('[data-toggle="popover"]').popover();
+            });
+        </script>
+        
+     
+  
+    </body>
+</html>

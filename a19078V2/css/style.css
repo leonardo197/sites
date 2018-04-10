@@ -1,0 +1,43 @@
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px 0 15px 0;
+  width: auto;
+}
+
+.barra .navbar-brand {
+  height: 120px;
+}
+
+.barra .nav >li >a {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.barra .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.footer {
+    padding: 30px 0 15px 0;
+    font-size: medium;
+}
+.margem{
+    margin-top: 2%;
+   margin-left: 1%;
+   margin-right: 1%;
+   marquee-loop: 2%;
+}
+img{
+    width:300px;
+}
+.img_index>img{
+    
+  width: 100%
+  
+}
+#id{
+    visibility: hidden;
+}
